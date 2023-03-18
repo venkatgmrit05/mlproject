@@ -21,7 +21,6 @@ def save_object(file_path, obj):
 
     except Exception as e:
         raise CustomException(e, sys)
-<<<<<<< HEAD
     
 def evaluate_models(X_train, y_train,X_test,y_test,models,param):
     try:
@@ -61,5 +60,3 @@ def load_object(file_path):
 
     except Exception as e:
         raise CustomException(e, sys)
-=======
->>>>>>> fd8188947197457e5cb4ddd5587ea17f3bcc1e9a
